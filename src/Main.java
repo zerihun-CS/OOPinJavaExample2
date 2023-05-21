@@ -1,10 +1,11 @@
 import java.time.Year;
 import java.time.YearMonth;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
 
+        LinkedList<String> names = new LinkedList<>();
 
 //
 //        Student abelOj = new Student();
@@ -97,23 +98,57 @@ public class Main {
 //        obj2.openingTime = "2:00";
 //        obj2.ratePerHour = 60;
 //
+//
+//
+//
+//
+//        ArrayOne studentList = new ArrayOne();
+//
+//        studentList.put("hanna");
+//        studentList.put("abel");
+//        studentList.put("kebede");
+//        studentList.put("mena");
+//        studentList.put("yakob");
+//        studentList.put("maki");
+//
+//        studentList.remove(2);
+
+
+//        LinkedList1  numbers = new LinkedList1();
+//
+//        numbers.add(1);
+//        numbers.add(2);
+//        numbers.add(4);
+//        numbers.add(8);
+//
+//        System.out.println(Arrays.toString(numbers.toArray()));
+
+
+        Queue1 busNumber = new Queue1(5);
+
+        busNumber.add(11);
+        busNumber.add(22);
+        busNumber.add(33);
+        busNumber.add(44);
+        busNumber.remove();
+        busNumber.remove();
+        busNumber.remove();
+        busNumber.add(55);
+        busNumber.add(66);
+        busNumber.add(77);
+        busNumber.remove();
+        busNumber.add(88);
+        busNumber.add(99);
+
+
+        busNumber.print();
 
 
 
-
-        ArrayOne studentList = new ArrayOne();
-
-        studentList.put("hanna");
-        studentList.put("abel");
-        studentList.put("kebede");
-        studentList.put("mena");
-        studentList.put("yakob");
-        studentList.put("maki");
-
-        studentList.remove(2);
-
-        studentList.print();
 
 
     }
+
+
+
 }

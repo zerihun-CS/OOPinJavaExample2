@@ -1,0 +1,4 @@
+interface EmployeeInfo {
+
+    void setEmployeeInfo();
+}
